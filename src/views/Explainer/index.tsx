@@ -111,15 +111,14 @@ const Explainer: React.FC = () => {
             IMPORTANT
           </StyledMessageText>
           <StyledMessageText fontSize={{ base: '1rem', lg: '16px' }}>
-            If you made a bid prior to March 15th, 2022, please use the old
-            version of the Consultation Queue:{' '}
-            <Link
+            This HireUs app for SaveDAO is a work in progress and still in beta!{' '}
+            {/* <Link
               href="https://hireus.raidguild.org"
               isExternal
               textDecoration="underline"
             >
               hireus.raidguild.org
-            </Link>
+            </Link> */}
           </StyledMessageText>
         </Flex>
         <br />

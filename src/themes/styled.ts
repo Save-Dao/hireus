@@ -45,7 +45,7 @@ export const StyledPrimaryHeading = styled(Heading)`
   font-family: ${theme.fonts.press2p};
   letter-spacing: 1.2px;
   line-height: 1.5;
-  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.2em red;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.2em green;
   color: white;
 `;
 
@@ -118,17 +118,17 @@ export const StyledPrimaryButton = styled(Button)`
   background: linear-gradient(
     94.89deg,
     #ff5a00 0%,
-    #d62789 70.2%,
-    #ad17ad 100%
+    #3bad3b 70.2%,
+    #3bad3b 100%
   );
   padding-left: 24px;
   padding-right: 24px;
   &:hover {
     background: linear-gradient(
       94.89deg,
-      #f78040 0%,
-      #dd459b 70.2%,
-      #ad3bad 100%
+      #3bad3b 0%,
+      #3bad3b 70.2%,
+      #f78040 100%
     );
   }
 `;

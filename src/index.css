@@ -24,12 +24,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff3864;
+  background: #00a800;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #e4728b;
+  background: #57a757;
 }
 
 .web3modal-modal-card {
