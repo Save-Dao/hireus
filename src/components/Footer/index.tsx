@@ -59,7 +59,7 @@ export const Footer: React.FC = () => {
         </VStack>
         <VStack alignItems="flex-start">
           <StyledFooterHeaderText fontSize="1.2rem">
-            For Raiders
+            For Savers
           </StyledFooterHeaderText>
           <Link
             href={'https://www.SaveDAO.org/#culture'}

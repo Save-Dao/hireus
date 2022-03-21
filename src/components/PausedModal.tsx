@@ -39,7 +39,7 @@ const PausedModal: React.FC<IPausedModal> = ({
           <p>
             Please feel free to submit your projects and use the $xDAI bidding
             queue to signal how strongly you wish to align with the Guild in
-            2022 - but please respect our Raiders as we take time off this
+            2022 - but please respect our Savers as we take time off this
             season to reflect upon this wild year and spend time with our
             friends and loved ones. We look forward to working with you and
             learning more about your project in the New Year! ⚔️
