@@ -112,7 +112,7 @@ const ConsultationRequestCard: React.FC<ConsultationRequestCardProps> = ({
             </StyledBodyText>
             <Flex>
               <StyledNumberText mr={'8px'}>
-                {round(utils.formatEther(consultationDetails.amount), 4)} $RAID
+                {round(utils.formatEther(consultationDetails.amount), 4)} $xDAI
               </StyledNumberText>
               <a
                 href={`${BLOCK_EXPLORER_URL[chainId]}address/${RAID_CONTRACT_ADDRESS[chainId]}`}

@@ -17,20 +17,20 @@ import { StyledPrimaryButton } from 'themes/styled';
 
 const faq_items = [
   {
-    q: 'Where can I get $RAID?',
-    a: 'The easiest place to get $RAID is through Honeyswap on Gnosis chain.  You can follow a link to Honeyswap by going to the Home page and selecting the $RAID button marked in red.',
+    q: 'Where can I get $xDAI?',
+    a: 'The easiest place to get $xDAI is through Honeyswap on Gnosis chain.  You can follow a link to Honeyswap by going to the Home page and selecting the $xDAI button marked in red.',
   },
   {
     q: 'What does bidding on my consultation request do?',
-    a: 'Bidding on your consultation request both shows your alignment with RaidGuild and boosts your request higher in the queue. The higher your bid, the sooner you will be considered for a consultation.',
+    a: 'Bidding on your consultation request both shows your alignment with SaveDAO and boosts your request higher in the queue. The higher your bid, the sooner you will be considered for a consultation.',
   },
   {
     q: 'How long is my bid locked up?',
     a: 'To prevent people from "gaming" the queue, a lockup period of 7 days is placed on the initial bid date.',
   },
   {
-    q: 'Does canceling my bid return the amount of $RAID I initially bid?',
-    a: 'Yes. After canceling a bid, all $RAID is returned to the user who submitted the initial bid.',
+    q: 'Does canceling my bid return the amount of $xDAI I initially bid?',
+    a: 'Yes. After canceling a bid, all $xDAI is returned to the user who submitted the initial bid.',
   },
   {
     q: 'Can anyone increase my bid?',

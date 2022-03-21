@@ -40,7 +40,7 @@ export const theme = extendTheme({
     metachilli: logos.meta_chilli,
     daohaus: logos.daohaus,
     moloch: logos.moloch,
-    raidguild: logos.raidguild,
+    SaveDAO: logos.SaveDAO,
     swords: logos.swords,
     smartinvoice: logos.smart_invoice,
     wrapeth: logos.wrapeth,

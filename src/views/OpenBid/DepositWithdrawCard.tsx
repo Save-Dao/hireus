@@ -213,7 +213,7 @@ const DepositWithdrawCared: React.FC<DepositWithdrawCardProps> = ({
       setHash(tx.hash);
       const { status } = await tx.wait(2);
       if (status === 1) {
-        toast.success('$RAID successfully approved');
+        toast.success('$xDAI successfully approved');
         setTxConfirmed(true);
         refresh();
         setIsApproving(false);
@@ -224,7 +224,7 @@ const DepositWithdrawCared: React.FC<DepositWithdrawCardProps> = ({
     } catch (error) {
       // eslint-disable-next-line no-console
       console.error(error);
-      toast.error('Error approving $RAID');
+      toast.error('Error approving $xDAI');
       setIsApproving(false);
     }
   }, [
@@ -328,7 +328,7 @@ const DepositWithdrawCared: React.FC<DepositWithdrawCardProps> = ({
               mb={'16px'}
             >
               <StyledNumberText fontSize={'20px'}>
-                {round(utils.formatEther(balance).toString(), 4)} $RAID
+                {round(utils.formatEther(balance).toString(), 4)} $xDAI
               </StyledNumberText>
               <StyledSmallSecondaryButton onClick={onMax} w={68}>
                 Max
@@ -370,7 +370,7 @@ const DepositWithdrawCared: React.FC<DepositWithdrawCardProps> = ({
               ) : isApproved ? (
                 `${consultationDetails.bid_id ? 'Increase' : 'Submit'} Bid`
               ) : (
-                'Approve $RAID'
+                'Approve $xDAI'
               )}
             </StyledPrimaryButton>
           </Box>
@@ -386,7 +386,7 @@ const DepositWithdrawCared: React.FC<DepositWithdrawCardProps> = ({
               {consultationDetails.submitter === address
                 ? round(utils.formatEther(consultationDetails.amount), 4)
                 : '0'}{' '}
-              $RAID
+              $xDAI
             </StyledNumberText>
           </Box>
           <Box>

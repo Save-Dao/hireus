@@ -27,7 +27,7 @@ const ConfirmCancel: React.FC<IConfirmCancel> = ({
       <ModalContent>
         <ModalHeader>Are you sure you want to cancel this bid?</ModalHeader>
         <ModalBody>
-          Canceling a bid will withdraw all $RAID in this contract and remove it
+          Canceling a bid will withdraw all $xDAI in this contract and remove it
           from the list.
         </ModalBody>
         <ModalFooter>

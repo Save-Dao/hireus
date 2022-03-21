@@ -10,7 +10,7 @@ import {
   StyledSecondaryButton,
 } from 'themes/styled';
 import { theme } from 'themes/theme';
-import { RAIDGUILD_WEBSITE_URL } from 'web3/constants';
+import { SaveDAO_WEBSITE_URL } from 'web3/constants';
 
 const Explainer: React.FC = () => {
   const history = useHistory();
@@ -33,7 +33,7 @@ const Explainer: React.FC = () => {
         </StyledPrimaryHeading>
 
         <StyledBodyText fontSize={{ base: '1rem', lg: '18px' }}>
-          The first step to hiring RaidGuild is submitting a request for a
+          The first step to hiring SaveDAO is submitting a request for a
           consultation (submission cost is 500{' '}
           <Link
             href={
@@ -43,14 +43,13 @@ const Explainer: React.FC = () => {
             rel={'noopener noreferrer'}
             color={theme.colors.green}
           >
-            $RAID
+            $xDAI
           </Link>
           ). During the consultation, we will discuss your needs, whether
-          RaidGuild can meet them, and collectively determine how best to
-          proceed. If you haven&apos;t done so yet, you can submit a
-          consultation request{' '}
+          SaveDAO can meet them, and collectively determine how best to If you
+          If you haven&apos;t done so yet, you can submit a consultation request{' '}
           <Link
-            href={`${RAIDGUILD_WEBSITE_URL}/hire`}
+            href={`${SaveDAO_WEBSITE_URL}/hire`}
             target={'_blank'}
             rel={'noopener noreferrer'}
             color={theme.colors.green}
@@ -64,7 +63,7 @@ const Explainer: React.FC = () => {
         <StyledBodyText fontSize={{ base: '1rem', lg: '18px' }}>
           Since demand for our services is high,{' '}
           <strong>
-            RaidGuild selects the next consultation to take from a queue.
+            SaveDAO selects the next consultation to take from a queue.
           </strong>{' '}
           When you submit your consultation request, it will be placed at the
           bottom of the queue.
@@ -82,10 +81,9 @@ const Explainer: React.FC = () => {
             rel={'noopener noreferrer'}
             color={theme.colors.green}
           >
-            $RAID
+            $xDAI
           </Link>{' '}
-          tokens. RaidGuild will accept the consultation request with the
-          highest bid in $RAID.
+          tokens. SaveDAO will accept the consultation request with the $xDAI.
         </StyledBodyText>
         <br />
 
@@ -113,11 +111,11 @@ const Explainer: React.FC = () => {
           <StyledMessageText fontSize={{ base: '1rem', lg: '16px' }}>
             This HireUs app for SaveDAO is a work in progress and still in beta!{' '}
             {/* <Link
-              href="https://hireus.raidguild.org"
+              href="https://hireus.SaveDAO.org"
               isExternal
               textDecoration="underline"
             >
-              hireus.raidguild.org
+              hireus.SaveDAO.org
             </Link> */}
           </StyledMessageText>
         </Flex>

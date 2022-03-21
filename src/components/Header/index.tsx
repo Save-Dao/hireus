@@ -34,11 +34,11 @@ const StyledButton = styled(ChakraLink)`
 `;
 
 const navItems = [
-  { name: 'Manifesto', href: 'https://www.raidguild.org/#manifesto' },
-  { name: 'Services', href: 'https://www.raidguild.org/#services' },
-  { name: 'Portfolio', href: 'https://www.raidguild.org/#portfolio' },
-  { name: 'Join', href: 'https://www.raidguild.org/#culture' },
-  { name: 'Hire', href: 'https://www.raidguild.org/#services' },
+  { name: 'Manifesto', href: 'https://www.SaveDAO.org/#manifesto' },
+  { name: 'Services', href: 'https://www.SaveDAO.org/#services' },
+  { name: 'Portfolio', href: 'https://www.SaveDAO.org/#portfolio' },
+  { name: 'Join', href: 'https://www.SaveDAO.org/#culture' },
+  { name: 'Hire', href: 'https://www.SaveDAO.org/#services' },
 ];
 
 type HeaderProps = {
@@ -83,35 +83,35 @@ export const Header: React.FC<HeaderProps> = ({ windowWidth }) => {
           color="red"
         >
           <ChakraLink
-            href={'https://www.raidguild.org/#manifesto'}
+            href={'https://www.SaveDAO.org/#manifesto'}
             target={'_blank'}
             rel={'noopener noreferrer'}
           >
             Manifesto
           </ChakraLink>
           <ChakraLink
-            href={'https://www.raidguild.org/#services'}
+            href={'https://www.SaveDAO.org/#services'}
             target={'_blank'}
             rel={'noopener noreferrer'}
           >
             Services
           </ChakraLink>
           <ChakraLink
-            href={'https://www.raidguild.org/#portfolio'}
+            href={'https://www.SaveDAO.org/#portfolio'}
             target={'_blank'}
             rel={'noopener noreferrer'}
           >
             Portfolio
           </ChakraLink>
           <ChakraLink
-            href={'https://www.raidguild.org/join'}
+            href={'https://www.SaveDAO.org/join'}
             target={'_blank'}
             rel={'noopener noreferrer'}
           >
             Join
           </ChakraLink>
           <ChakraLink
-            href={'https://hireus.raidguild.org'}
+            href={'https://hireus.SaveDAO.org'}
             target={'_blank'}
             rel={'noopener noreferrer'}
           >

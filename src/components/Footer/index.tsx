@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
     >
       <Image
         src={saveDAO}
-        alt="raidguild logo"
+        alt="SaveDAO logo"
         width={{ base: '66px', lg: '100px' }}
         mr="auto"
         mt="2rem"
@@ -43,14 +43,14 @@ export const Footer: React.FC = () => {
             For Clients
           </StyledFooterHeaderText>
           <Link
-            href={'https://www.raidguild.org/#services'}
+            href={'https://www.SaveDAO.org/#services'}
             target={'_blank'}
             rel={'noopener noreferrer'}
           >
             Hire Us
           </Link>
           <Link
-            href={'https://www.raidguild.org/#portfolio'}
+            href={'https://www.SaveDAO.org/#portfolio'}
             target={'_blank'}
             rel={'noopener noreferrer'}
           >
@@ -62,14 +62,14 @@ export const Footer: React.FC = () => {
             For Raiders
           </StyledFooterHeaderText>
           <Link
-            href={'https://www.raidguild.org/#culture'}
+            href={'https://www.SaveDAO.org/#culture'}
             target={'_blank'}
             rel={'noopener noreferrer'}
           >
             Join Us
           </Link>
           <Link
-            href="https://handbook.raidguild.org"
+            href="https://handbook.SaveDAO.org"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -81,7 +81,7 @@ export const Footer: React.FC = () => {
             For All
           </StyledFooterHeaderText>
           <Link
-            href="https://twitter.com/RaidGuild"
+            href="https://twitter.com/SaveDAO"
             target="_blank"
             rel="noopener noreferrer"
           >

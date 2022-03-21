@@ -87,7 +87,7 @@ const HiringBaord: React.FC = () => {
             />
           </Flex>
           {isLoadingShares && (
-            <StyledBodyText>Checking RaidGuild membership...</StyledBodyText>
+            <StyledBodyText>Checking SaveDAO membership...</StyledBodyText>
           )}
           {isLoadingBids ? (
             <Spinner color={'#fff'} />
@@ -188,7 +188,7 @@ const BidListItem: React.FC<BidListItemProps> = ({
               fontSize={{ base: '12px', md: '14px' }}
               w={{ base: '88px', md: '110px' }}
             >
-              {round(utils.formatEther(bid.amount), 2)} $RAID
+              {round(utils.formatEther(bid.amount), 2)} $xDAI
             </StyledNumberText>
             {showProjectName ? (
               <StyledSmallPrimaryButton

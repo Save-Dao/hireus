@@ -26,7 +26,7 @@ export const providerOptions: IProviderOptions = {
       description: 'Scan with Coinbase wallet to connect',
     },
     options: {
-      appName: 'RaidGuild: Consultation Queue',
+      appName: 'SaveDAO: Consultation Queue',
     },
     package: WalletLink,
     connector: async (

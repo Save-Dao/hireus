@@ -112,9 +112,9 @@ const OpenBid: React.FC = () => {
       );
       const hours = Math.floor(remainingSeconds / (1000 * 60 * 60));
       if (days === 0 && hours === 0) {
-        setLockTime(`$RAID locked for < 1 hour`);
+        setLockTime(`$xDAI locked for < 1 hour`);
       } else {
-        setLockTime(`$RAID locked for ${days} days, ${hours} hours`);
+        setLockTime(`$xDAI locked for ${days} days, ${hours} hours`);
       }
     } else {
       setLockTime('Bid can be withdrawn or canceled');
@@ -360,7 +360,7 @@ const OpenBid: React.FC = () => {
                           color={change.withdrawnAt ? 'red' : 'green'}
                         >
                           {change.withdrawnAt ? '-' : '+'}
-                          {utils.formatEther(change.amount)} $RAID
+                          {utils.formatEther(change.amount)} $xDAI
                         </StyledNumberText>
                       </Flex>
                     </StyledBountyRow>
