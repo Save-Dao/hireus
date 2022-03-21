@@ -41,7 +41,7 @@ const Explainer: React.FC = () => {
             }
             target={'_blank'}
             rel={'noopener noreferrer'}
-            color={theme.colors.red}
+            color={theme.colors.green}
           >
             $RAID
           </Link>
@@ -53,7 +53,7 @@ const Explainer: React.FC = () => {
             href={`${RAIDGUILD_WEBSITE_URL}/hire`}
             target={'_blank'}
             rel={'noopener noreferrer'}
-            color={theme.colors.red}
+            color={theme.colors.green}
           >
             here
           </Link>
@@ -80,7 +80,7 @@ const Explainer: React.FC = () => {
             }
             target={'_blank'}
             rel={'noopener noreferrer'}
-            color={theme.colors.red}
+            color={theme.colors.green}
           >
             $RAID
           </Link>{' '}

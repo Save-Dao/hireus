@@ -9,11 +9,13 @@ import { StyledSecondaryButton } from 'themes/styled';
 import { theme } from 'themes/theme';
 import { shortenAddress } from 'utils';
 
+import saveDAO from '../../assets/logo/logo-color.png';
+
 const StyledButton = styled(ChakraLink)`
   &::after {
     box-sizing: inherit;
     transition: all ease-in-out 0.2s;
-    background: none repeat scroll 0 0 ${theme.colors.red};
+    background: none repeat scroll 0 0 ${theme.colors.green};
     content: '';
     display: block;
     height: 2px;
@@ -64,10 +66,10 @@ export const Header: React.FC<HeaderProps> = ({ windowWidth }) => {
       zIndex={5}
     >
       <Image
-        src="/assets/logo/logo-color.png"
-        fallbackSrc="/assets/logo/logo-color.png"
+        src={saveDAO}
+        fallbackSrc="../../assets/logo/logo-color.png"
         alt="SaveDAO"
-        width={{ base: '150px', lg: '168px' }}
+        width={{ base: '66px', lg: '100px' }}
         onClick={() => history.push(rootLocation)}
         cursor="pointer"
       />
@@ -129,12 +131,12 @@ export const Header: React.FC<HeaderProps> = ({ windowWidth }) => {
               zIndex={7}
             >
               {!isOpen && (
-                <span style={{ width: '25px', color: theme.colors.red }}>
+                <span style={{ width: '25px', color: theme.colors.green }}>
                   <i className="fas fa-bars" />
                 </span>
               )}
               {isOpen && (
-                <span style={{ width: '25px', color: theme.colors.red }}>
+                <span style={{ width: '25px', color: theme.colors.green }}>
                   <i className="fas fa-times" />
                 </span>
               )}
@@ -171,7 +173,7 @@ export const Header: React.FC<HeaderProps> = ({ windowWidth }) => {
                   rel={'noopener noreferrer'}
                   my="1rem"
                   variant="link"
-                  color={`${theme.colors.red}`}
+                  color={`${theme.colors.green}`}
                   fontWeight="normal"
                   fontSize="1.5rem"
                 >

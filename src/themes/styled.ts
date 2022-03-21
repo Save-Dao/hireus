@@ -52,7 +52,7 @@ export const StyledPrimaryHeading = styled(Heading)`
 export const StyledSecondaryHeading = styled(Heading)`
   font-family: ${theme.fonts.press2p};
   letter-spacing: 1.2px;
-  color: ${theme.colors.red};
+  color: ${theme.colors.green};
 `;
 
 export const StyledHeadingLabels = styled(Heading)`
@@ -103,7 +103,7 @@ export const StyledNumberText = styled(Text)<StyledNumberTextProps>`
 export const StyledFooterHeaderText = styled(Text)`
   font-family: ${theme.fonts.spaceMono};
   font-weight: bold;
-  color: ${theme.colors.red};
+  color: ${theme.colors.green};
 `;
 
 // --------- Buttons ------------
@@ -138,9 +138,9 @@ export const StyledSecondaryButton = styled(Button)`
   height: 50px;
   font-family: ${theme.fonts.spaceMono};
   text-transform: uppercase;
-  border: 2px solid ${theme.colors.red};
+  border: 2px solid ${theme.colors.green};
   border-radius: 3px;
-  color: ${theme.colors.red};
+  color: ${theme.colors.green};
   background: black;
   box-decoration-break: clone;
   padding-left: 24px;
@@ -177,9 +177,9 @@ export const StyledSmallSecondaryButton = styled(Button)`
   height: 28px;
   font-family: ${theme.fonts.spaceMono};
   text-transform: uppercase;
-  border: 2px solid ${theme.colors.red};
+  border: 2px solid ${theme.colors.green};
   border-radius: 3px;
-  color: ${theme.colors.red};
+  color: ${theme.colors.green};
   background: black;
   box-decoration-break: clone;
   &:hover {
@@ -192,7 +192,7 @@ export const StyledSmallSecondaryButton = styled(Button)`
 
 export const StyledInput = styled(Input)`
   background: ${theme.colors.black};
-  border: 2px solid ${theme.colors.red};
+  border: 2px solid ${theme.colors.green};
   border-radius: 4px;
   color: #fff;
 
@@ -211,7 +211,7 @@ export const StyledTextArea = styled(Textarea)`
 
 export const StyledCard = styled(Box)`
   background: ${theme.colors.black};
-  border-top: 2px solid ${theme.colors.red};
+  border-top: 2px solid ${theme.colors.green};
   border-radius: 4px;
   box-size: border-box;
   overflow-y: scroll;

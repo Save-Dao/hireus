@@ -81,11 +81,11 @@ const StyledSwitch = styled.label`
   }
 
   input:checked + span {
-    background-color: ${theme.colors.red};
+    background-color: ${theme.colors.green};
   }
 
   input:focus + span {
-    box-shadow: 0 0 1px ${theme.colors.red};
+    box-shadow: 0 0 1px ${theme.colors.green};
   }
 
   input:checked + span:before {

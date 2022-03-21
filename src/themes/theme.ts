@@ -23,6 +23,7 @@ export const theme = extendTheme({
     purpleLight: '#B66AD6',
     //this is the main color named 'red'
     red: '#00e600',
+    green: '#00e600',
     yellow: '#F2E857',
     yellowDark: '#DCCF11',
   },
@@ -40,7 +41,6 @@ export const theme = extendTheme({
     daohaus: logos.daohaus,
     moloch: logos.moloch,
     raidguild: logos.raidguild,
-    savedao: '/assets/logo/logo-color.png',
     swords: logos.swords,
     smartinvoice: logos.smart_invoice,
     wrapeth: logos.wrapeth,

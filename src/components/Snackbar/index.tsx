@@ -71,7 +71,7 @@ const StyledPosition = styled(Box)`
 const StyledContainer = styled(Box)`
   background: ${theme.colors.black};
   box-sizing: border-box;
-  border: 2px solid ${theme.colors.red};
+  border: 2px solid ${theme.colors.green};
   border-radius: 4px;
   height: 70px;
   padding: 0 10px 0 20px;

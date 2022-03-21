@@ -8,7 +8,9 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import { StyledFooterHeaderText } from 'themes/styled';
-import { theme } from 'themes/theme';
+
+// import { theme } from 'themes/theme';
+import saveDAO from '../../assets/logo/logo-color.png';
 
 export const Footer: React.FC = () => {
   return (
@@ -22,9 +24,9 @@ export const Footer: React.FC = () => {
       bg="black"
     >
       <Image
-        src={theme.images.raidguild}
+        src={saveDAO}
         alt="raidguild logo"
-        width={{ base: '150px', lg: '168px' }}
+        width={{ base: '66px', lg: '100px' }}
         mr="auto"
         mt="2rem"
       />
@@ -92,7 +94,7 @@ export const Footer: React.FC = () => {
           </Link>
 
           <Link
-            href="https://github.com/orgs/raid-guild/"
+            href="https://github.com/Save-Dao"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -105,7 +107,7 @@ export const Footer: React.FC = () => {
           </Link>
 
           <Link
-            href="https://discord.gg/rGFpfQf"
+            href="https://discord.gg/j8C4Jnu6"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -118,7 +120,7 @@ export const Footer: React.FC = () => {
           </Link>
 
           <Link
-            href="https://raidguild.substack.com/"
+            href="https://babaj.medium.com/a-new-moloch-dao-has-risen-42dbbd760564"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -126,7 +128,7 @@ export const Footer: React.FC = () => {
               <span style={{ width: '15px', marginRight: '5px' }}>
                 <i className="fas fa-newspaper"></i>
               </span>
-              <Text>Newsletter</Text>
+              <Text>Medium</Text>
             </HStack>
           </Link>
         </VStack>
