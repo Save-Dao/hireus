@@ -42,7 +42,7 @@ export const StyledGridChild = styled.div`
 // --------- Headings ------------
 
 export const StyledPrimaryHeading = styled(Heading)`
-  font-family: ${theme.fonts.uncial};
+  font-family: ${theme.fonts.press2p};
   letter-spacing: 1.2px;
   line-height: 1.5;
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.2em red;
@@ -50,13 +50,13 @@ export const StyledPrimaryHeading = styled(Heading)`
 `;
 
 export const StyledSecondaryHeading = styled(Heading)`
-  font-family: ${theme.fonts.uncial};
+  font-family: ${theme.fonts.press2p};
   letter-spacing: 1.2px;
   color: ${theme.colors.red};
 `;
 
 export const StyledHeadingLabels = styled(Heading)`
-  font-family: ${theme.fonts.texturina};
+  font-family: ${theme.fonts.VT323};
   letter-spacing: 2px;
   text-align: ${({ textAlign }) => (textAlign ? textAlign : 'center')};
   color: white;
@@ -66,7 +66,7 @@ export const StyledHeadingLabels = styled(Heading)`
 
 export const StyledBodyText = styled(Text)`
   max-width: 720px;
-  font-family: ${theme.fonts.texturina};
+  font-family: ${theme.fonts.VT323};
   line-height: 1.8;
   color: white;
   text-align: justify;
@@ -74,7 +74,7 @@ export const StyledBodyText = styled(Text)`
 
 export const StyledCardText = styled(Text)`
   max-width: 720px;
-  font-family: ${theme.fonts.texturina};
+  font-family: ${theme.fonts.VT323};
   line-height: 1.8;
   color: white;
   text-align: left;

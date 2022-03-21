@@ -64,9 +64,9 @@ export const Header: React.FC<HeaderProps> = ({ windowWidth }) => {
       zIndex={5}
     >
       <Image
-        src={theme.images.raidguild}
-        fallbackSrc="/assets/raidguild__logo.png"
-        alt="RaidGuild"
+        src="/assets/logo/logo-color.png"
+        fallbackSrc="/assets/logo/logo-color.png"
+        alt="SaveDAO"
         width={{ base: '150px', lg: '168px' }}
         onClick={() => history.push(rootLocation)}
         cursor="pointer"

@@ -21,7 +21,8 @@ export const theme = extendTheme({
     white: '#fffffe',
     purple: '#822EA6',
     purpleLight: '#B66AD6',
-    red: '#ff3864',
+    //this is the main color named 'red'
+    red: '#00e600',
     yellow: '#F2E857',
     yellowDark: '#DCCF11',
   },
@@ -29,7 +30,9 @@ export const theme = extendTheme({
     texturina: `'Texturina', serif`,
     jetbrains: `'JetBrains Mono', monospace`,
     rubik: `'Rubik Mono One', sans-serif`,
-    uncial: `'Uncial Antiqua', cursive`,
+    uncial: `'Uncial Antiqua', monospace`,
+    VT323: `'VT323', monospace`,
+    press2p: `'Press Start 2P', monospace`,
     spaceMono: `'Space Mono', monospace`,
   },
   images: {
@@ -37,6 +40,7 @@ export const theme = extendTheme({
     daohaus: logos.daohaus,
     moloch: logos.moloch,
     raidguild: logos.raidguild,
+    savedao: '/assets/logo/logo-color.png',
     swords: logos.swords,
     smartinvoice: logos.smart_invoice,
     wrapeth: logos.wrapeth,
